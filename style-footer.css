@@ -1,0 +1,72 @@
+body{
+    padding:0;
+    margin:0;
+  }
+  footer{
+    width: 100%;
+    background-color:rgb(33, 33, 33);
+  
+  }
+  .footer-content{
+    margin: 0 240px;
+    font-family: Arial, sans-serif;
+    color: white;
+    padding-top: 10px;
+  }
+  .footer-content .top {
+    display:flex;
+    justify-content: left;
+    align-items: center; 
+  }
+  .footer-content .top h3{
+     margin:0;
+     
+  }
+  .footer-content .top button{
+    font-size: 27px;
+    background-color:rgb(33,33,33);
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-left: 10px;
+  }
+  .list {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+  }
+  .list .col .option{
+    font-size: 1.2rem;
+  }
+  .list .col ul{
+    list-style-type: none;
+    opacity: 60%;
+    padding: 0;
+  }
+  .list .col ul li{
+    margin-bottom: 10px;
+  }
+  .bottom{
+    display: flex;
+    justify-content: left;
+    /* flex-direction: row; */
+  }
+  .bottom ul{
+   /*  display: flex; */
+   /*  justify-content: left; */
+    
+    list-style-type: none;
+    padding: 0;
+  }
+  .bottom ul li {
+    margin-right: 20px;
+    float : left;
+  }
+  .bottom ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 0.8rem;
+    opacity: 60%;
+  }
+  li:hover{
+    opacity:30%;
+  }
