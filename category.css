@@ -1,0 +1,25 @@
+.category{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    margin-left: 250px;
+    margin-bottom: 40px;
+  }
+  .category-item{
+    display:flex;
+    font-family: Arial, sans-serif;
+    border: solid 1px #efe9e9;
+    margin-right: 35px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  .category-item:hover{
+    transform: translate(0px,-0.5px);
+    box-shadow: 0 4px 8px 0 rgba(195, 189, 189, 0.19), 0 6px 20px 0 rgba(195, 189, 189, 0.19);
+    transition:0.1s;
+  }
+  .image-content{
+    border-radius:10px 0 0 10px;
+  }
+  .category-content{
+    padding-left: 20px;
+  }
